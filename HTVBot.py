@@ -2,8 +2,9 @@
 
 import time
 import twitch
+import htvsettings
 
-helix = twitch.Helix('client-id')
+helix = twitch.Helix(htvsettings.HELIX_CLIENT_ID )
 
 # Users
 while True:
